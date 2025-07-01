@@ -125,8 +125,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <button type="submit">🔓 Login</button>
 
     <div class="login-footer">
+<<<<<<< HEAD
         Belum punya akun? <a href="daftar.php">Daftar</a><br>
         Lupa password? <a href="ubah_password.php">Reset</a>
+=======
+        Belum punya akun? <a href="register.php">Daftar</a><br>
+        Lupa password? <a href="reset_password.php">Reset</a>
+>>>>>>> a1bbefe95640d65c563394f6c3b18317460b260b
     </div>
 </form>
 

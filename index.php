@@ -158,6 +158,10 @@ $role = $user['role'];
         <?php if ($role === 'admin' || $role === 'owner'): ?>
             <li><a href="manajemen_user.php" class="menu-link">👤 Manajemen User</a></li>
         <?php endif; ?>
+<<<<<<< HEAD
+=======
+        <li><a href="register.php" class="menu-link">🆕 Register Pengguna</a></li>
+>>>>>>> a1bbefe95640d65c563394f6c3b18317460b260b
         <li><a href="reset_password.php" class="menu-link">🔐 Reset Password</a></li>
         <li><a href="ganti_password.php" class="menu-link">🔁 Ganti Password</a></li>
         <li><a href="logout.php">🚪 Logout</a></li>
